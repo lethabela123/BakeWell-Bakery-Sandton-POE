@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO Title Tag -->
+  <title>BakeWell Bakery | Fresh Cakes, Pastries & Baked Products</title>
+
+  <!-- Other existing links and styles -->
+  <link rel="stylesheet" href="../css/styles.css">
+
+  <!-- Font Awesome for social media icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+<!-- Header -->
+<header>
+  <h1>
+    <img src="../assets/WhatsApp Image 2025-08-27 at 09.56.37.jpeg" alt="BakeWell Bakery Logo" width="150" height="150">
+    BakeWell Bakery
+  </h1>
+  <nav>
+    <ul>
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="products.html" class="active">Products</a></li>
+      <li><a href="enquiry.html">Enquiry</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="blog.html">Blog</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- Main Content -->
+<main>
+  <h2 class="page-title">Our Products</h2>
+
+  <!-- SEARCH FEATURE -->
+  <div class="search-container">
+    <input type="text" id="productSearch" placeholder="Search products..." aria-label="Search Products">
+  </div>
+
+  <!-- Product Flip Cards -->
+  <div class="product-section" id="productSection">
+
+    <!-- Cakes -->
+    <div class="flip-card">
+      <div class="flip-inner">
+        <div class="flip-front">
+          <h3>Cakes</h3>
+          <div class="product-items">
+            <div><img src="../assets/chocolate.jpeg" alt="Chocolate Cake" class="lightbox-img" data-caption="Chocolate Cake"><p>Chocolate</p></div>
+            <div><img src="../assets/vanilla.jpeg" alt="Vanilla Cake" class="lightbox-img" data-caption="Vanilla Cake"><p>Vanilla</p></div>
+            <div><img src="../assets/red velvet.jpeg" alt="Red Velvet Cake" class="lightbox-img" data-caption="Red Velvet Cake"><p>Red Velvet</p></div>
+            <div><img src="../assets/gluten.jpeg" alt="Gluten-Free Cake" class="lightbox-img" data-caption="Gluten-Free Cake"><p>Gluten-Free</p></div>
+          </div>
+        </div>
+        <div class="flip-back">
+          <h3>Cakes</h3>
+          <p>Freshly baked daily with premium ingredients. From classic vanilla to indulgent chocolate — every slice brings joy!</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Breads -->
+    <div class="flip-card">
+      <div class="flip-inner">
+        <div class="flip-front">
+          <h3>Breads</h3>
+          <div class="product-items">
+            <div><img src="../assets/sourdough.jpeg" alt="Sourdough Bread" class="lightbox-img" data-caption="Sourdough Bread"><p>Sourdough</p></div>
+            <div><img src="../assets/rye.jpeg" alt="Rye Bread" class="lightbox-img" data-caption="Rye Bread"><p>Rye</p></div>
+            <div><img src="../assets/wholemeat.jpeg" alt="Wholewheat Bread" class="lightbox-img" data-caption="Wholewheat Bread"><p>Wholewheat</p></div>
+            <div><img src="../assets/baguette.jpeg" alt="Baguette" class="lightbox-img" data-caption="Baguette"><p>Baguette</p></div>
+          </div>
+        </div>
+        <div class="flip-back">
+          <h3>Breads</h3>
+          <p>Handcrafted loaves made with traditional methods — soft inside, crispy outside, and full of flavor.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Pastries -->
+    <div class="flip-card">
+      <div class="flip-inner">
+        <div class="flip-front">
+          <h3>Pastries</h3>
+          <div class="product-items">
+            <div><img src="../assets/croissant.jpg" alt="Croissant" class="lightbox-img" data-caption="Croissant"><p>Croissant</p></div>
+            <div><img src="../assets/danishes.jpeg" alt="Danish Pastry" class="lightbox-img" data-caption="Danish Pastry"><p>Danishes</p></div>
+            <div><img src="../assets/muffins.jpeg" alt="Muffins" class="lightbox-img" data-caption="Muffins"><p>Muffins</p></div>
+          </div>
+        </div>
+        <div class="flip-back">
+          <h3>Pastries</h3>
+          <p>Buttery, flaky, and irresistible — perfect for your morning coffee or an afternoon treat!</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Health-Conscious -->
+    <div class="flip-card">
+      <div class="flip-inner">
+        <div class="flip-front">
+          <h3>Health-Conscious</h3>
+          <div class="product-items">
+            <div><img src="../assets/vegan.jpeg" alt="Vegan Cupcake" class="lightbox-img" data-caption="Vegan Cupcake"><p>Vegan Cupcake</p></div>
+            <div><img src="../assets/keto.jpeg" alt="Keto-Friendly Bread" class="lightbox-img" data-caption="Keto-Friendly Bread"><p>Keto-Friendly</p></div>
+          </div>
+        </div>
+        <div class="flip-back">
+          <h3>Health-Conscious</h3>
+          <p>Wholesome, guilt-free indulgence — vegan, keto, and gluten-free options for every lifestyle.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Lightbox Modal -->
+  <div id="lightboxModal" class="lightbox">
+    <span class="close">&times;</span>
+    <img class="lightbox-content" id="lightboxImg">
+    <div id="caption"></div>
+    <a class="prev">&#10094;</a>
+    <a class="next">&#10095;</a>
+  </div>
+
+</main>
+
+<!-- Footer -->
+<footer>
+  <p>&copy; 2025 BakeWell Bakery | All Rights Reserved</p>
+
+  <!-- Social Media Icons -->
+  <div class="social-icons">
+    <a href="https://www.facebook.com/YourPage" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+    <a href="https://www.twitter.com/YourPage" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+    <a href="https://www.instagram.com/YourPage" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+    <a href="https://www.linkedin.com/YourPage" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+  </div>
+</footer>
+
+<!-- External JS -->
+<script src="../js/javascript.js"></script>
+<script src="../js/lightbox.js"></script>
+<script src="../js/product-search.js"></script>
+
+</body>
+</html>

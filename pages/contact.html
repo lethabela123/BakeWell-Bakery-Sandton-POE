@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BakeWell Bakery | Contact</title>
+  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="stylesheet" href="../css/contact.css">
+
+  <!-- Font Awesome for social media icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+<header>
+  <h1>
+    <img src="../assets/WhatsApp Image 2025-08-27 at 09.56.37.jpeg" 
+         alt="BakeWell Bakery Logo" class="logo">
+    BakeWell Bakery
+  </h1>
+  <nav aria-label="Main Navigation">
+    <ul>
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="./about.html">About</a></li>
+      <li><a href="./products.html">Products</a></li>
+      <li><a href="./enquiry.html">Enquiry</a></li>
+      <li><a href="./contact.html" class="active">Contact</a></li>
+      <li><a href="./blog.html">Blog</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <h2>Contact Us</h2>
+
+  <section>
+    <p><strong>Address:</strong> 45 Market Street, Sandton, Johannesburg</p>
+    <p><strong>Phone:</strong> +27 11 555 1234</p>
+    <p><strong>Email:</strong> info@bakewellbakery.co.za</p>
+  </section>
+
+  <h3>Send Us a Message</h3>
+
+  <div class="form-card">
+    <form id="contactForm" action="mailto:info@bakewellbakery.co.za" method="post" enctype="text/plain">
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+      <label for="email">Your Email:</label>
+      <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+
+      <button type="submit">Send Message</button>
+      <p id="formFeedback"></p>
+    </form>
+  </div>
+
+  <h3>Find Us</h3>
+  <section class="map-container">
+    <iframe 
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3586.110837629694!2d28.12728667612211!3d-25.997186355576265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e956e0e086126a9%3A0x4bdc561f77c95f75!2s45%20Market%20St%2C%20Halfway%20House%2C%20Midrand%2C%201685%2C%20South%20Africa!5e0!3m2!1sen!2sie!4v1756209366396!5m2!1sen!2sie" 
+      allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 2025 BakeWell Bakery | All Rights Reserved</p>
+
+  <!-- Social Media Icons -->
+  <div class="social-icons">
+    <a href="https://www.facebook.com/YourPage" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+    <a href="https://www.twitter.com/YourPage" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+    <a href="https://www.instagram.com/YourPage" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+    <a href="https://www.linkedin.com/YourPage" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+  </div>
+</footer>
+
+<!-- External JS files -->
+<script src="../js/javascript.js"></script>
+</body>
+</html>

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BakeWell Bakery | About Us</title>
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="../css/styles.css">
+
+  <!-- Font Awesome for social media icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+<header>
+  <h1>
+    <img src="../assets/WhatsApp Image 2025-08-27 at 09.56.37.jpeg" alt="BakeWell Bakery Logo" class="logo">
+    BakeWell Bakery
+  </h1>
+  <nav>
+    <ul>
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="about.html" class="active">About</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="enquiry.html">Enquiry</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="blog.html">Blog</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <h2>About Us</h2>
+
+  <!-- REAL-TIME CONTENT -->
+  <div class="dynamic-panel">
+    <p id="liveWelcome" class="dynamic-info"></p>
+    <p id="liveTime" class="dynamic-info"></p>
+    <p id="liveFact" class="dynamic-info"></p>
+  </div>
+
+  <!-- Card Container -->
+  <div class="card-container">
+    
+    <!-- Card 1 -->
+    <div class="flip-card">
+      <div class="flip-inner">
+        <div class="flip-front">
+          <h3>About Us</h3>
+          <p>BakeWell Bakery is a family-owned artisan bakery founded in 2010 in Sandton, Johannesburg.</p>
+        </div>
+        <div class="flip-back">
+          <p>We began as a small weekend market stall and have grown into a beloved bakery known for passion and quality.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="flip-card">
+      <div class="flip-inner">
+        <div class="flip-front">
+          <h3>Our Mission</h3>
+          <p>To provide fresh, high-quality baked goods that bring joy and comfort.</p>
+        </div>
+        <div class="flip-back">
+          <p>We believe in honest ingredients, skilled craftsmanship, and delivering smiles with every bite.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="flip-card">
+      <div class="flip-inner">
+        <div class="flip-front">
+          <h3>Our Vision</h3>
+          <p>To become South Africa’s most loved bakery brand.</p>
+        </div>
+        <div class="flip-back">
+          <p>We aim to inspire happiness, one loaf, pastry, and cake at a time — built on trust and community.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Staff Gallery -->
+  <section>
+    <h2>Meet the Team</h2>
+    <div class="staff-container">
+      <div class="staff-member">
+        <img src="../assets/baker.jpeg" alt="Relebohile Kobela" class="staff-img lightbox-img" data-caption="Relebohile Kobela - Baker">
+        <p><strong>Relebohile Kobela</strong><br>Baker</p>
+      </div>
+      <div class="staff-member">
+        <img src="../Assets/cake decorTOR.jpeg" alt="Phuti Malope" class="staff-img lightbox-img" data-caption="Phuti Malope - Cake Decorator">
+        <p><strong>Phuti Malope</strong><br>Cake Decorator</p>
+      </div>
+      <div class="staff-member">
+        <img src="../assets/clerk.jpeg" alt="Noko Malatjie" class="staff-img lightbox-img" data-caption="Noko Malatjie - Bakery Clerk">
+        <p><strong>Noko Malatjie</strong><br>Bakery Clerk</p>
+      </div>
+      <div class="staff-member">
+        <img src="../Assets/bakery manager.jpeg" alt="Tlou Phaho" class="staff-img lightbox-img" data-caption="Tlou Phaho - Bakery Manager">
+        <p><strong>Tlou Phaho</strong><br>Bakery Manager</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lightbox Modal -->
+  <div id="lightboxModal" class="lightbox">
+    <span class="close">&times;</span>
+    <img class="lightbox-content" id="lightboxImg">
+    <div id="caption"></div>
+    <a class="prev">&#10094;</a>
+    <a class="next">&#10095;</a>
+  </div>
+
+</main>
+
+<footer>
+  <p>&copy; 2025 BakeWell Bakery | All Rights Reserved</p>
+
+  <!-- Social Media Icons -->
+  <div class="social-icons">
+    <a href="https://www.facebook.com/YourPage" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+    <a href="https://www.twitter.com/YourPage" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+    <a href="https://www.instagram.com/YourPage" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+    <a href="https://www.linkedin.com/YourPage" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+  </div>
+</footer>
+
+<script src="../js/javascript.js"></script>
+<script src="../js/lightbox.js"></script>
+</body>
+</html>
